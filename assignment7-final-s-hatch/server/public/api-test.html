@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>API Test</title>
+        <script src="./js/api-test.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <p>
+            Enter a name and some text then select a subway line
+            to test the API, which will get all reviews for that subway line,
+            create a new review, update that review, then delete that review.
+        </p>
+        <div class="name-input-test">
+            <label for="username-id-test">Name: </label>
+            <input id="username-id-test" type="text" name="username" value="">
+        </div>
+        <div class="review-text-test">
+            <textarea id="review-id-test" type="text" name="review" rows="10" cols="100"></textarea>
+        </div>
+        <div id="line-color-test">
+            <label for="select-red">Red Line: </label>
+            <input type="radio" id="select-red" name="lineselect" value="Red">
+            <label for="select-orange">Orange-Line: </label>
+            <input type="radio" id="select-orange" name="lineselect" value="Orange">
+            <label for="select-green">Green Line: </label>
+            <input type="radio" id="select-green" name="lineselect" value="Green">
+            <label for="select-blue">Blue Line: </label>
+            <input type="radio" id="select-blue" name="lineselect" value="Blue">
+        </div>
+        <button id="submit-test">Submit Test</button>
+    </body>
+</html>

@@ -1,0 +1,105 @@
+.home-title {
+    text-align: center;
+}
+
+.main-head {
+    text-align: center;
+}
+
+.header2 {
+    text-align: center;
+}
+
+.subway-links {
+    list-style: none;
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+}
+.subway-links > li > a {
+    text-decoration: none;
+}
+
+.review-form {
+    text-align: center;
+}
+.name-input {
+    margin: 30px 0 30px;
+}
+.submit-button {
+    margin: 30px 0 30px;
+    font-size: 30px;
+}
+.submit-button:hover {
+    cursor: pointer;
+}
+
+.review-wrap {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 30px auto 30px;
+    padding: 10px 0;
+    width: 300px;
+}
+.name-div {
+    margin-top: 15px;
+}
+.review-div {
+    margin: 15px 0 10px;
+}
+
+.submit-error-msg {
+    text-align: center;
+    margin-top: 20px;
+}
+.edit-submit-button {
+    margin-top: 20px;
+    width: 100px;
+    font-size: 15px;
+}
+.edit-submit-button:hover {
+    cursor: pointer;
+}
+
+.username-edit-label {
+    margin-right: 20px;
+}
+.review-text {
+    display: flex;
+    justify-content: center;
+}
+.review-edit-label {
+    align-self: center;
+    margin-right: 50px;
+}
+
+.review-buttons {
+    display: flex;
+    justify-content: center;
+}
+.delete-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    color: black;
+    border: solid 1px lightgray;
+    background-color: lightblue;
+    margin-right: 20px;
+}
+.delete-button:hover {
+    cursor: pointer;
+}
+.edit-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    background-color: lightblue;
+}
+.edit-button:hover {
+    cursor: pointer;
+}

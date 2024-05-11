@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit Review</title>
+    </head>
+    <body>
+        <form class="review-form" method="post" action="/editSubmit/{{this.lineColor}}/{{this.reviewId}}?_method=PUT">
+            <div class="name-input">
+                <label class="username-edit-label" for="username-edit-id">Edit name: </label>
+                <input class="username-edit" id="username-edit-id" value={{this.name}} type="text" name="username">
+            </div>
+            <div class="review-text">
+                <label class="review-edit-label" for="review-edit-id">Edit review: </label>
+                <textarea id="review-edit-id" name="editSubmit" rows="10" cols="50">{{this.reviewText}}</textarea>
+            </div>
+            <input class="edit-submit-button" type="submit" value="Submit Edit">
+        </form>
+        {{#if this.submitErrorMsg}}
+            <div class="submit-error-msg">{{this.submitErrorMsg}}</div>
+        {{/if}}
+    </body>
+</html>

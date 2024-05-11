@@ -1,0 +1,51 @@
+.edit-name-div {
+    text-align: center;
+}
+.edit-review-div {
+    text-align: center;
+    margin-top: 15px;
+}
+.review-label-div {
+    text-align: center;
+    margin-top: 30px;
+}
+.edit-submit-button {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(241, 241, 241);
+    font-size: 14px;
+    border-radius: 5px;
+}
+.delete-button {
+    display: block;
+    margin: 50px auto;
+    height: 30px;
+    width: 130px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+}
+.delete-button:hover {
+    cursor: pointer;
+    background-color: rgb(214, 213, 213);
+}
+
+.home-button {
+    display: block;
+    margin: 50px auto;
+    height: 30px;
+    width: 130px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+}.home-button > a {
+    text-decoration: none;
+    color: black;
+}
+.home-button:hover {
+    cursor: pointer;
+    background-color: rgb(214, 213, 213);
+}

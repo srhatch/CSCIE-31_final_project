@@ -1,0 +1,41 @@
+.description {
+    text-align: center;
+}
+.user-prompt {
+    text-align: center;
+    margin-top: 60px;
+}
+.button-div {
+    margin-top: 30px;
+    text-align: center;
+}
+.button-div > button {
+    font-size: 15px;
+    margin: 0 30px;
+    padding: 20px 30px;
+}
+.button-div > button:hover {
+    cursor: pointer;
+}
+.new-post-button {
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+.new-post-button:hover {
+    cursor: pointer;
+    background-color: rgb(214, 213, 213);
+}
+
+.button-div > button {
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+.button-div > button:hover {
+    cursor: pointer;
+    background-color: rgb(214, 213, 213);
+}

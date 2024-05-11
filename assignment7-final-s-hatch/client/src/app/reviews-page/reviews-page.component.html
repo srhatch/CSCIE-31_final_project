@@ -1,0 +1,10 @@
+<div class="outer-review-wrap">
+    <div class="inner-review-wrap" *ngFor="let review of reviews">
+        <div class="name-div">{{review.name}} wrote: </div>
+        <div class="review-div">{{review.reviewText}}</div>
+        <a class="edit-link" routerLink="/editpage/{{review._id}}"><button class="edit-button">Edit Review</button></a>
+    </div>
+</div>
+
+
+

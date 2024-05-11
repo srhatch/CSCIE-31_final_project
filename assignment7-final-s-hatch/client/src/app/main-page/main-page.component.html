@@ -1,0 +1,15 @@
+<h2 class="description">A website to review each subway line on the MBTA</h2>
+<button class="new-post-button" (click)="showNewPost()">Write a Review</button>
+<app-new-post [hidden]="hideNewPost" (hideForm)="hideForm()" (showReviews)="showReviews($event)"></app-new-post>
+<h3 class="user-prompt">Select a line to see what people are saying</h3>
+<div class="button-div">
+  <button class="showRed" (click)="showRedReviews()">Red Line</button>
+  <button class="showGreen" (click)="showGreenReviews()">Green Line</button>
+  <button class="showOrange" (click)="showOrangeReviews()">Orange Line</button>
+  <button class="showBlue" (click)="showBlueReviews()">Blue Line</button>
+</div>
+<app-reviews-page
+  [reviews]="reviews"
+  [lineColor]="lineColor"
+  [hidden]="hideReviews">
+</app-reviews-page>

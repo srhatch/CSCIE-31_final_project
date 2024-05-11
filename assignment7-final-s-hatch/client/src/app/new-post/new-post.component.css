@@ -1,0 +1,27 @@
+.new-name-div {
+    margin-top: 30px;
+}
+
+.new-review-div {
+    text-align: center;
+    margin-top: 25px;
+}
+.new-review-text-div {
+    margin-top: 20px;
+}
+
+.radio-prompt {
+    margin: 50px 0px 15px 0px;
+}
+.radio-label {
+    margin-left: 10px;
+}
+
+.new-submit-button {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+}

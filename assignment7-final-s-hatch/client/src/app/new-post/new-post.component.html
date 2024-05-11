@@ -1,0 +1,17 @@
+<div class="new-review-div">
+    <form #form="ngForm" (ngSubmit)="submitNewReview(form)">
+        <div class="radio-prompt">Select a subway line to review</div>
+        <label class="radio-label" for="red-button">Red</label>
+        <input required type="radio" id="red-button" name="subwayLine" value="Red" [(ngModel)]="newReview.subwayLine">
+        <label class="radio-label" for="green-button">Green</label>
+        <input required type="radio" id="green-button" name="subwayLine" value="Green" [(ngModel)]="newReview.subwayLine">
+        <label class="radio-label" for="orange-button">Orange</label>
+        <input required type="radio" id="orange-button" name="subwayLine" value="Orange" [(ngModel)]="newReview.subwayLine">
+        <label class="radio-label" for="blue-button">Blue</label>
+        <input required type="radio" id="blue-button" name="subwayLine" value="Blue" [(ngModel)]="newReview.subwayLine">
+        <div class="new-name-div"><input required id="name-input" type="text" name="newName" placeholder="Name" [(ngModel)]="newReview.name"></div>
+        <div class="new-review-text-div"><textarea required type="text" class="review-input" name="newReview" placeholder="What do you have to say?" rows="10" cols="100" [(ngModel)]="newReview.reviewText"></textarea></div>
+        <input class="new-submit-button" [disabled]="!form.valid" type="submit" value="Submit Review">
+    </form>
+</div>
+

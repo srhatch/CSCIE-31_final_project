@@ -1,0 +1,15 @@
+<form class="edit-form" #form="ngForm" (ngSubmit)="submitEdit(form.value)">
+    <div class="edit-name-div">
+        <label class="edit-name-label" for="name-edit">Name: </label>
+        <input type="text" id="name-edit" name="nameEdit" [ngModel]="retrievedReview.name">
+    </div>
+    <div class="review-label-div">
+        <label class="edit-review-label" for="review-edit">Edit review: </label>
+    </div>
+    <div class="edit-review-div">
+        <textarea type="text" id="review-edit" name="reviewEdit" [ngModel]="retrievedReview.reviewText" rows="10" cols="100"></textarea>
+    </div>
+    <button class="edit-submit-button" [disabled]="!form.dirty" type="submit">Save Edit</button>
+</form>
+<button class="delete-button" (click)="deleteReview()">Delete Review</button>
+<a routerLink="/"><button class="home-button">Return to Home</button></a>
